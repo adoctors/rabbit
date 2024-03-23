@@ -1,0 +1,2 @@
+# rabbit
+web: react vite
