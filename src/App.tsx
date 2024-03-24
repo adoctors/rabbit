@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Button } from 'antd';
 import reactLogo from "./assets/react.svg";
 import logo from "/rabbit.png";
 import "./App.css";
@@ -27,6 +28,7 @@ function App() {
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
+        <Button type="primary">Button</Button>
       </p>
     </>
   );
