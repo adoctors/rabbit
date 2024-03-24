@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className="text-green-700">
         <a href="https://vitejs.dev" target="_blank">
           <img src={logo} className="logo" alt="Vite logo" />
         </a>
@@ -21,7 +21,7 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
-        <p>
+        <p className="text-red-500">
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
       </div>
